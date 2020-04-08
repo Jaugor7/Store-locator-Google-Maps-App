@@ -117,7 +117,7 @@ let stores = [{
     "storeNumber": "5577-1851",
     "id": "14753",
     "name": "Fairfax & Olympic",
-    "phoneNumber": "(323) 634-7845",
+    "phoneNumber": "323-634-7845",
     "coordinates": {
         "latitude": 34.057968,
         "longitude": -118.363715

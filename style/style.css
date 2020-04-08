@@ -13,12 +13,12 @@ body {
 .title{
     position: absolute;
     z-index:100;
-    font-size:60px;
+    font-size:40px;
     font-weight:bold;
     color:#333;
     text-transform:uppercase;
     top:60px;
-    left:60px;
+    left:70px;
 
 }
 .search-container{
@@ -26,7 +26,7 @@ body {
     z-index: 100;
     top: 150px;
     left: 60px;
-    background-color: #333;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
     height: 60px;
     width: 400px;
     border-radius: 30px;
@@ -61,11 +61,76 @@ body {
 
 .store-list-container {
     width: 400px;
+    display:flex;
     position: absolute;
     z-index: 100;
-    background: white;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     left: 60px;
     border-radius: 50px;
     top: 250px;
     bottom: 20px;
+    overflow-y: hidden;
+    padding-bottom:30px;
 }
+
+.store-info-container{
+    flex-grow: 1;
+}
+.store-number-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-list-container .store-list{
+    flex-grow:1;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.store-list-container .store-container{
+    color: white;
+    padding-top: 10px;
+    line-height: 1;
+    display:flex;
+    width:90%;
+    margin-left: 20px;
+    border-bottom:1px solid white;
+}
+.store-address span{
+    display:block;
+}
+
+.store-address{
+    font-size:18px;
+    color:white;
+    margin-top:30px;
+}
+
+.store-phone-no{
+    color:#B5ADAD;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+
+.store-container i{
+    font-size: 40px;
+}
+
+.store-list-container .store-list .store-container i:hover{
+    color:rgb(120, 151, 141);
+}
+
+.store-number{
+    width:30px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    color:black;
+    border-radius: 50%;
+}
+
