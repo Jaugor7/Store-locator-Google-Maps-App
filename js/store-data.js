@@ -1,117 +1,118 @@
 let stores = [{
     "recommendation": {},
-    "storeNumber": "5758-13907",
-    "id": "15051",
-    "name": "La Cienega & Gregory Way",
-    "phoneNumber": "310-659-9562",
+    "storeNumber": "not-set",
+    "id": "not-set",
+    "name": "Green Departmental Store",
+    "phoneNumber": "+919805100037",
     "coordinates": {
-        "latitude": 34.063584,
-        "longitude": -118.376354
+        "latitude": 30.444242,
+        "longitude": 77.606795,
+
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "257 S. La Cienega Blvd.",
+        "streetAddressLine1": "Chakarata Rd, Badripur",
         "streetAddressLine2": null,
         "streetAddressLine3": null,
-        "city": "Beverly Hills",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902113301"
+        "city": "Paonta Sahib",
+        "state": "Himachal Pradesh",
+        "countryCode": "IN",
+        "postalCode": "173025"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+        "currentTimeOffset": "UTC +5:30",
+        "windowsTimeZoneId": "India Standard Time",
+        "olsonTimeZoneId": "(GMT +5:30) Kolkata,New Delhi"
     },
-    "brandName": "Starbucks",
+    "brandName": "Jaugor7",
     "ownershipTypeCode": "CO",
     "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["257 S. La Cienega Blvd.", "Beverly Hills, CA 90211"],
+    "openStatusText": "Open until 10:00 PM",
+    "addressLines": ["Chakarata Rd, Badripur","Paonta Sahib", "Himachal Pradesh 173025"],
     "mop": {
         "ready": false,
         "wait": null
     },
     "schedule": [{
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }, {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }, {
         "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }, {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }, {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }, {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }, {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "9:00 AM to 10:00 PM",
         "open": true,
         "holiday": ""
     }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "la-cienega-gregory-way-257-s-la-cienega-blvd-beverly-hills-ca-902113301-u"
+    // "features": [{
+    //     "code": "WA",
+    //     "name": "Oven-warmed Food"
+    // }, {
+    //     "code": "VS",
+    //     "name": "Verismo"
+    // }, {
+    //     "code": "CD",
+    //     "name": "Mobile Payment"
+    // }, {
+    //     "code": "DR",
+    //     "name": "Digital Rewards"
+    // }, {
+    //     "code": "LB",
+    //     "name": "LaBoulange"
+    // }, {
+    //     "code": "GO",
+    //     "name": "Google Wi-Fi"
+    // }, {
+    //     "code": "XO",
+    //     "name": "Mobile Order and Pay"
+    // }, {
+    //     "code": "MX",
+    //     "name": "Music Experience"
+    // }, {
+    //     "code": "NB",
+    //     "name": "Nitro Cold Brew"
+    // }, {
+    //     "code": "BE",
+    //     "name": "Blonde Espresso"
+    // }, {
+    //     "code": "LU",
+    //     "name": "Lunch"
+    // }, {
+    //     "code": "PS",
+    //     "name": "Playbook Store System"
+    // }, {
+    //     "code": "WC",
+    //     "name": "Wireless Charging"
+    // }, {
+    //     "code": "UE",
+    //     "name": "tbd - Uber Eats"
+    // }],
+    "slug": "paonta-sahib/locate/gree-departmental-store/",
 }, {
     "recommendation": {},
     "storeNumber": "5577-1851",

@@ -15,7 +15,7 @@ body {
     z-index:100;
     font-size:40px;
     font-weight:bold;
-    color:#333;
+    color:white;
     text-transform:uppercase;
     top:60px;
     left:70px;
@@ -33,6 +33,7 @@ body {
     display: flex;
 }
 
+
 .search-container .search{
     display: flex;
     flex-grow: 1;
@@ -49,6 +50,9 @@ body {
     border: none;
     color: white;
     
+}
+.search i{
+    cursor:pointer;
 }
 
 .search-container .search #zip-code-input:focus{
@@ -89,6 +93,10 @@ body {
     padding-right: 20px;
 }
 
+.store-list-container .store-list::-webkit-scrollbar {
+    display:none;
+}
+
 .store-list-container .store-container{
     color: white;
     padding-top: 10px;
@@ -97,30 +105,31 @@ body {
     width:90%;
     margin-left: 20px;
     border-bottom:1px solid white;
+    cursor:pointer;
 }
 .store-address span{
     display:block;
 }
 
 .store-address{
-    font-size:18px;
+    margin-top:20px;
+    line-height: normal;
+}
+
+.store-address .name{
+    font-size:20px;
     color:white;
-    margin-top:30px;
+}
+
+.store-address .addr{
+    font-size:16px;
+    color:darkgrey;
 }
 
 .store-phone-no{
-    color:#B5ADAD;
+    color:Lightgreen;
     margin-top:10px;
     margin-bottom:15px;
-}
-
-
-.store-container i{
-    font-size: 40px;
-}
-
-.store-list-container .store-list .store-container i:hover{
-    color:rgb(120, 151, 141);
 }
 
 .store-number{
@@ -134,3 +143,63 @@ body {
     border-radius: 50%;
 }
 
+.style-info-window{
+    min-width: 300px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.store-info-name{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.87);
+}
+
+.store-info-status{
+    margin-top: 6px;
+    border-bottom: 1px solid #00000029;
+    padding-bottom: 6px;
+}
+
+.store-info-address{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.store-info-phone{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    color: green;
+}
+.store-info-address .circle, .store-info-phone .circle{
+    width: 30px;
+    height: 30px;
+    background-color: #1985A1;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:8px;
+}
+
+.store-container-background{
+    display: flex;
+    flex-grow: 1;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.store-container-background:hover{
+    display: flex;
+    flex-grow: 1;
+    background-color: darkcyan;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    transition: all 0.2s ease-in-out;
+}
